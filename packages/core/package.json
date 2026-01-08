@@ -1,0 +1,30 @@
+{
+  "name": "@cerber-ci/core",
+  "version": "2.0.0-alpha.1",
+  "description": "Core AST parser and validation engine for CI/CD workflows",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "ast",
+    "parser",
+    "yaml",
+    "github-actions",
+    "workflow"
+  ],
+  "author": "Agata Slezak <agataslezak7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "jsonpath-plus": "^7.2.0",
+    "ajv": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}
